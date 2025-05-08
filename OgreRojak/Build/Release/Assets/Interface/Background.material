@@ -1,0 +1,16 @@
+
+material Background
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Background.jpg
+			}
+		}
+	}
+}
+
+

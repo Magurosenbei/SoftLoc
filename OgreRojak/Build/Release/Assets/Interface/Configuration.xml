@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<CEGUIConfig
+	Scheme="TaharezLookSkin.scheme"
+	Layout="Layout.xml"
+	DefaultFont="Hymmnos-12"
+  DefaultMouseCursor ="TaharezLook" 
+/>

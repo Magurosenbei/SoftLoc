@@ -1,0 +1,297 @@
+10:11:18: Creating resource group General
+10:11:18: Creating resource group Internal
+10:11:18: Creating resource group Autodetect
+10:11:18: SceneManagerFactory for type 'DefaultSceneManager' registered.
+10:11:18: Registering ResourceManager for type Material
+10:11:18: Registering ResourceManager for type Mesh
+10:11:18: Registering ResourceManager for type Skeleton
+10:11:18: MovableObjectFactory for type 'ParticleSystem' registered.
+10:11:18: OverlayElementFactory for type Panel registered.
+10:11:18: OverlayElementFactory for type BorderPanel registered.
+10:11:18: OverlayElementFactory for type TextArea registered.
+10:11:18: Registering ResourceManager for type Font
+10:11:18: ArchiveFactory for archive type FileSystem registered.
+10:11:18: ArchiveFactory for archive type Zip registered.
+10:11:18: FreeImage version: 3.10.0
+10:11:18: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+10:11:18: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+10:11:18: DDS codec registering
+10:11:18: Registering ResourceManager for type HighLevelGpuProgram
+10:11:18: Registering ResourceManager for type Compositor
+10:11:18: MovableObjectFactory for type 'Entity' registered.
+10:11:18: MovableObjectFactory for type 'Light' registered.
+10:11:18: MovableObjectFactory for type 'BillboardSet' registered.
+10:11:18: MovableObjectFactory for type 'ManualObject' registered.
+10:11:18: MovableObjectFactory for type 'BillboardChain' registered.
+10:11:18: MovableObjectFactory for type 'RibbonTrail' registered.
+10:11:18: Loading library ./Plugins\RenderSystem_Direct3D9_d
+10:11:18: Installing plugin: D3D9 RenderSystem
+10:11:18: D3D9 : Direct3D9 Rendering Subsystem created.
+10:11:18: D3D9: Driver Detection Starts
+10:11:18: D3D9: Driver Detection Ends
+10:11:18: Plugin successfully installed
+10:11:18: Loading library ./Plugins\Plugin_ParticleFX_d
+10:11:18: Installing plugin: ParticleFX
+10:11:18: Particle Emitter Type 'Point' registered
+10:11:18: Particle Emitter Type 'Box' registered
+10:11:18: Particle Emitter Type 'Ellipsoid' registered
+10:11:18: Particle Emitter Type 'Cylinder' registered
+10:11:18: Particle Emitter Type 'Ring' registered
+10:11:18: Particle Emitter Type 'HollowEllipsoid' registered
+10:11:18: Particle Affector Type 'LinearForce' registered
+10:11:18: Particle Affector Type 'ColourFader' registered
+10:11:18: Particle Affector Type 'ColourFader2' registered
+10:11:18: Particle Affector Type 'ColourImage' registered
+10:11:18: Particle Affector Type 'ColourInterpolator' registered
+10:11:18: Particle Affector Type 'Scaler' registered
+10:11:18: Particle Affector Type 'Rotator' registered
+10:11:18: Particle Affector Type 'DirectionRandomiser' registered
+10:11:18: Particle Affector Type 'DeflectorPlane' registered
+10:11:18: Plugin successfully installed
+10:11:18: *-*-* OGRE Initialising
+10:11:18: *-*-* Version 1.6.1 (Shoggoth)
+10:11:18: D3D9 : RenderSystem Option: Full Screen = no
+10:11:18: D3D9 : RenderSystem Option: Video Mode = 640 x 480 @ 32-bit colour
+10:11:18: D3D9 : RenderSystem Option: Floating-point mode = fastest
+10:11:18: CPU Identifier & Features
+10:11:18: -------------------------
+10:11:18:  *   CPU ID: GenuineIntel: Intel(R) Core(TM)2 Quad  CPU   Q9550  @ 2.83GHz
+10:11:18:  *      SSE: yes
+10:11:18:  *     SSE2: yes
+10:11:18:  *     SSE3: yes
+10:11:18:  *      MMX: yes
+10:11:18:  *   MMXEXT: yes
+10:11:18:  *    3DNOW: no
+10:11:18:  * 3DNOWEXT: no
+10:11:18:  *     CMOV: yes
+10:11:18:  *      TSC: yes
+10:11:18:  *      FPU: yes
+10:11:18:  *      PRO: yes
+10:11:18:  *       HT: no
+10:11:18: -------------------------
+10:11:18: D3D9 : Subsystem Initialising
+10:11:18: D3D9RenderSystem::_createRenderWindow "OgreRojak", 640x480 windowed  miscParams: FSAA=0 FSAAQuality=0 colourDepth=32 gamma=false useNVPerfHUD=false vsync=true 
+10:11:18: D3D9 : Created D3D9 Rendering Window 'OgreRojak' : 640x480, 32bpp
+10:11:18: Registering ResourceManager for type Texture
+10:11:18: Registering ResourceManager for type GpuProgram
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT16_R
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT32_R
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+10:11:18: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+10:11:18: RenderSystem capabilities
+10:11:18: -------------------------
+10:11:18: RenderSystem Name: Direct3D9 Rendering Subsystem
+10:11:18: GPU Vendor: nvidia
+10:11:18: Device Name: NVIDIA Quadro FX 1700
+10:11:18: Driver Version: 6.14.11.9100
+10:11:18:  * Fixed function pipeline: yes
+10:11:18:  * Hardware generation of mipmaps: yes
+10:11:18:  * Texture blending: yes
+10:11:18:  * Anisotropic texture filtering: yes
+10:11:18:  * Dot product texture operation: yes
+10:11:18:  * Cube mapping: yes
+10:11:18:  * Hardware stencil buffer: yes
+10:11:18:    - Stencil depth: 8
+10:11:18:    - Two sided stencil support: yes
+10:11:18:    - Wrap stencil values: yes
+10:11:18:  * Hardware vertex / index buffers: yes
+10:11:18:  * Vertex programs: yes
+10:11:18:  * Fragment programs: yes
+10:11:18:  * Geometry programs: no
+10:11:18:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+10:11:18:  * Texture Compression: yes
+10:11:18:    - DXT: yes
+10:11:18:    - VTC: no
+10:11:18:  * Scissor Rectangle: yes
+10:11:18:  * Hardware Occlusion Query: yes
+10:11:18:  * User clip planes: yes
+10:11:18:  * VET_UBYTE4 vertex element type: yes
+10:11:18:  * Infinite far plane projection: yes
+10:11:18:  * Hardware render-to-texture: yes
+10:11:18:  * Floating point textures: yes
+10:11:18:  * Non-power-of-two textures: yes
+10:11:18:  * Volume textures: yes
+10:11:18:  * Multiple Render Targets: 4
+10:11:18:    - With different bit depths: yes
+10:11:18:  * Point Sprites: yes
+10:11:18:  * Extended point parameters: yes
+10:11:18:  * Max Point Size: 8192
+10:11:18:  * Vertex texture fetch: yes
+10:11:18:    - Max vertex textures: 4
+10:11:18:    - Vertex textures shared: no
+10:11:18:  * Render to Vertex Buffer : no
+10:11:18:  * DirectX per stage constants: yes
+10:11:18: ***************************************
+10:11:18: *** D3D9 : Subsystem Initialised OK ***
+10:11:18: ***************************************
+10:11:18: ResourceBackgroundQueue - threading disabled
+10:11:18: Particle Renderer Type 'billboard' registered
+10:11:18: Added resource location 'Assets' of type 'FileSystem' to resource group 'General'
+10:11:18: Creating resource group GUI
+10:11:18: Added resource location 'Assets/Gui' of type 'FileSystem' to resource group 'GUI'
+10:11:18: Added resource location 'Assets/Interface' of type 'FileSystem' to resource group 'GUI'
+10:11:18: Creating resource group Shaders
+10:11:18: Added resource location 'Assets/Shaders' of type 'FileSystem' to resource group 'Shaders'
+10:11:18: Creating resource group Primitives
+10:11:18: Added resource location 'Assets/Primitives' of type 'FileSystem' to resource group 'Primitives'
+10:11:18: Parsing scripts for resource group Autodetect
+10:11:18: Finished parsing scripts for resource group Autodetect
+10:11:18: Parsing scripts for resource group GUI
+10:11:18: Parsing script Background.material
+10:11:18: Parsing script Bar.material
+10:11:18: Parsing script Options.material
+10:11:18: Parsing script Options_Menu.material
+10:11:18: Parsing script Quit.material
+10:11:18: Parsing script Screen.material
+10:11:18: Parsing script Start.material
+10:11:18: Finished parsing scripts for resource group GUI
+10:11:18: Parsing scripts for resource group General
+10:11:18: Finished parsing scripts for resource group General
+10:11:18: Parsing scripts for resource group Internal
+10:11:18: Finished parsing scripts for resource group Internal
+10:11:18: Parsing scripts for resource group Primitives
+10:11:18: Finished parsing scripts for resource group Primitives
+10:11:18: Parsing scripts for resource group Shaders
+10:11:18: Parsing script Flag.material
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called SpecularPw does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in Flag.material(26): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called Specular does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in Flag.material(27): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called SpecularColor does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in Flag.material(28): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called RimColor does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in Flag.material(31): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called RimMinMaxMul does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in Flag.material(32): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called vScale does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in Flag.material(45): setting of constant failed
+10:11:18: Parsing script Particle.material
+10:11:18: Parsing script SoftBody.material
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called matWorld does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in SoftBody.material(9): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called AmbientColor does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in SoftBody.material(28): setting of constant failed
+10:11:18: Parsing script TF2.material
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called SpecularPw does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(26): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called Specular does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(27): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called SpecularColor does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(28): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called RimColor does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(31): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called RimMinMaxMul does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(32): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called vScale does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(45): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called vScale does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(77): setting of constant failed
+10:11:18: OGRE EXCEPTION(2:InvalidParametersException): Parameter called vScale does not exist.  in GpuProgramParameters::_findNamedConstantDefinition at f:\codingextra\ogre\shoggoth_vc9\ogre\ogremain\src\ogregpuprogram.cpp (line 1097)
+10:11:18: Compiler error: invalid parameters in TF2.material(109): setting of constant failed
+10:11:18: Parsing script PadEmitor.particle
+10:11:18: Finished parsing scripts for resource group Shaders
+10:11:18: Font bluehighusing texture size 1024x512
+10:11:18: Info: Freetype returned null for character 127 in font bluehigh
+10:11:18: Info: Freetype returned null for character 128 in font bluehigh
+10:11:18: Info: Freetype returned null for character 129 in font bluehigh
+10:11:18: Info: Freetype returned null for character 130 in font bluehigh
+10:11:18: Info: Freetype returned null for character 131 in font bluehigh
+10:11:18: Info: Freetype returned null for character 132 in font bluehigh
+10:11:18: Info: Freetype returned null for character 133 in font bluehigh
+10:11:18: Info: Freetype returned null for character 134 in font bluehigh
+10:11:18: Info: Freetype returned null for character 135 in font bluehigh
+10:11:18: Info: Freetype returned null for character 136 in font bluehigh
+10:11:18: Info: Freetype returned null for character 137 in font bluehigh
+10:11:18: Info: Freetype returned null for character 138 in font bluehigh
+10:11:18: Info: Freetype returned null for character 139 in font bluehigh
+10:11:18: Info: Freetype returned null for character 140 in font bluehigh
+10:11:18: Info: Freetype returned null for character 141 in font bluehigh
+10:11:18: Info: Freetype returned null for character 142 in font bluehigh
+10:11:18: Info: Freetype returned null for character 143 in font bluehigh
+10:11:18: Info: Freetype returned null for character 144 in font bluehigh
+10:11:18: Info: Freetype returned null for character 145 in font bluehigh
+10:11:18: Info: Freetype returned null for character 146 in font bluehigh
+10:11:18: Info: Freetype returned null for character 147 in font bluehigh
+10:11:18: Info: Freetype returned null for character 148 in font bluehigh
+10:11:18: Info: Freetype returned null for character 149 in font bluehigh
+10:11:18: Info: Freetype returned null for character 150 in font bluehigh
+10:11:18: Info: Freetype returned null for character 151 in font bluehigh
+10:11:18: Info: Freetype returned null for character 152 in font bluehigh
+10:11:18: Info: Freetype returned null for character 153 in font bluehigh
+10:11:18: Info: Freetype returned null for character 154 in font bluehigh
+10:11:18: Info: Freetype returned null for character 155 in font bluehigh
+10:11:18: Info: Freetype returned null for character 156 in font bluehigh
+10:11:18: Info: Freetype returned null for character 157 in font bluehigh
+10:11:18: Info: Freetype returned null for character 158 in font bluehigh
+10:11:18: Info: Freetype returned null for character 159 in font bluehigh
+10:11:18: Info: Freetype returned null for character 160 in font bluehigh
+10:11:18: Texture: bluehighTexture: Loading 1 faces(PF_BYTE_LA,1024x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,1024x512x1.
+10:11:18: Texture: Logo.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+10:11:18: Font Hymmnosusing texture size 1024x512
+10:11:18: Info: Freetype returned null for character 33 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 34 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 36 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 37 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 38 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 39 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 40 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 41 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 42 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 43 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 59 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 63 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 64 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 91 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 92 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 93 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 94 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 95 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 96 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 123 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 124 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 125 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 126 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 160 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 161 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 162 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 163 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 164 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 165 in font Hymmnos
+10:11:18: Info: Freetype returned null for character 166 in font Hymmnos
+10:11:18: Texture: HymmnosTexture: Loading 1 faces(PF_BYTE_LA,1024x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,1024x512x1.
+10:11:18: Texture: Background.jpg: Loading 1 faces(PF_R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x512x1.
+10:11:18: Mesh: Loading sphere.mesh.
+10:11:18: Texture: Camo.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+10:11:18: Texture: Tone.png: Loading 1 faces(PF_R8G8B8,64x1x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,64x1x1.
+10:11:18: Texture: Options_Menu.png: Loading 1 faces(PF_R8G8B8,512x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,512x256x1.
+10:11:18: Texture: Bar.png: Loading 1 faces(PF_A8R8G8B8,419x36x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,419x36x1.
+10:11:19: Texture: StartButton.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+10:11:19: Texture: Quit.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+10:11:19: Texture: temp.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+10:11:19: Mesh: Loading Flag.mesh.
+10:11:19: Texture: Flag.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+10:11:19: Mesh: Loading 1x1CubeBlock.mesh.
+10:11:19: Mesh: Loading Sphere HiDef.mesh.
+10:11:32: Texture: HotPad.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+10:11:32: Texture: ColdPad.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,128x128x1.
+10:11:51: *-*-* OGRE Shutdown
+10:11:51: Unregistering ResourceManager for type Compositor
+10:11:51: Unregistering ResourceManager for type Font
+10:11:51: Unregistering ResourceManager for type Skeleton
+10:11:51: Unregistering ResourceManager for type Mesh
+10:11:51: Unregistering ResourceManager for type HighLevelGpuProgram
+10:11:51: Uninstalling plugin: ParticleFX
+10:11:51: Plugin successfully uninstalled
+10:11:51: Unloading library ./Plugins\Plugin_ParticleFX_d
+10:11:51: Uninstalling plugin: D3D9 RenderSystem
+10:11:51: D3D9 : Shutting down cleanly.
+10:11:51: Unregistering ResourceManager for type Texture
+10:11:51: Unregistering ResourceManager for type GpuProgram
+10:11:51: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+10:11:51: Plugin successfully uninstalled
+10:11:51: Unloading library ./Plugins\RenderSystem_Direct3D9_d
+10:11:51: Unregistering ResourceManager for type Material

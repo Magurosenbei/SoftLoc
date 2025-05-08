@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Map>
+  <!-- Define Start and End -->
+  <StartPoint     x   = "-80"  y = "30"      z = "0"/>
+  <GoalPoint      x   = "90"   y = "30"      z = "0"/>
+  <FlagPosition   x   = "80"   y = "2.5"      z = "0"/>
+  <GoalExtents    x   = "20"    y = "20"      z = "50"/>
+  <GoalRotation   x   = "0"     y = "0"       z = "0"/>
+  <!-- Define Walls sx = scale qx = quaternion -->
+  <Walls>
+    <GroupFilter Tag = "WallGroup00">
+      <Mesh   id="Cover_+">
+        <Position x = "0 "    y  = "0"      z  = "20"/>
+        <Scale    x = "200"   y  = "400 "   z  = "1"/>
+        <Rotation x = "0"     y  = "0"      z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="Cover_-">
+        <Position x = "0 "  y  = "0"        z  = "-20"/>
+        <Scale    x = "200" y  = "400 "     z  = "1"/>
+        <Rotation x = "0"   y  = "0"        z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="Base"  display ="1x1CubeBlock.mesh">
+        <Position x = "0 "    y  = "0"    z  = "0"/>
+        <Scale    x = "200"   y  = "5 "   z  = "50"/>
+        <Rotation x = "0"     y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="Top"  display ="1x1CubeBlock.mesh">
+        <Position x = "0 "    y  = "50"   z  = "0"/>
+        <Scale    x = "200"   y  = "5 "   z  = "50"/>
+        <Rotation x = "0"     y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="Left"  display ="1x1CubeBlock.mesh">
+        <Position x = "-98 "  y  = "25"   z  = "0"/>
+        <Scale    x = "5"     y  = "46"   z  = "50"/>
+        <Rotation x = "0"     y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="Right"  display ="1x1CubeBlock.mesh">
+        <Position x = "98 "   y  = "25"   z  = "0"/>
+        <Scale    x = "5"     y  = "46"   z  = "50"/>
+        <Rotation x = "0"     y  = "0"    z  = "0"/>
+      </Mesh>
+    </GroupFilter>
+  </Walls>
+</Map>

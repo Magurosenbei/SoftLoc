@@ -1,0 +1,15 @@
+
+material Button_Options
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater_equal 128
+			texture_unit
+			{
+				texture temp.png
+			}
+		}
+	}
+}

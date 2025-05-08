@@ -1,0 +1,67 @@
+vertex_program TF2_vs hlsl
+{
+	
+	source TF2.hlsl
+	target vs_2_0
+	
+	entry_point Vertex_Parse
+	
+	default_params
+	{
+		param_named_auto matWorld			world_matrix
+		param_named_auto matViewProjection	viewproj_matrix
+		param_named_auto vViewPosition		camera_position
+		param_named_auto vLightPosition		light_position 0
+	}
+}
+
+fragment_program TF2_ps hlsl
+{
+	source TF2.hlsl
+	target ps_2_0
+	entry_point Pixel_Parse
+	
+	default_params
+	{
+		param_named	SpecularPw		float	16.0
+		param_named	Specular		float	0.4
+		param_named SpecularColor	float4	0.6796 0.6796 0.6796 1.0
+		param_named DiffuseColor	float4	0.8647 0.8647 0.8647 1.0
+		param_named AmbientColor	float4	0.1137 0.1137 0.1137 1.0
+		param_named	RimColor		float4	1.0000 0.0000 0.0000 1.0
+		param_named RimMinMaxMul	float3	0.4 1.0 1.0
+	}
+}
+
+
+material TF2NPR_Flag
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref TF2_vs
+			{
+				param_named_auto vScale custom 1
+			}
+			
+			fragment_program_ref TF2_ps
+			{
+			}
+			texture_unit
+			{
+				texture_alias ColorSampler
+				texture	Flag.png
+				filtering bilinear 
+				tex_address_mode wrap 
+			}
+			texture_unit ToneSampler
+			{
+				texture_alias ToneSampler
+				texture	Tone.png
+				filtering bilinear 
+				tex_address_mode clamp 
+			}
+		}	
+	}
+}

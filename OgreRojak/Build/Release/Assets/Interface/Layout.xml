@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!-- Layout file from CEGUI Demo8 -->
+<GUILayout>
+  <Window Type="DefaultGUISheet" Name="demo_root">
+    <Window Type="TaharezLook/FrameWindow" Name="MainMenu">
+      <Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+      <Property Name="UnifiedSize" Value="{{1,0},{1,0}}" />
+      <Property Name="Text" Value="Main Menu" />
+      
+      <Property Name="CloseButtonEnabled" Value="False" />
+      <Window Type="TaharezLook/Button" Name="cmdStartGame">
+        <Property Name="UnifiedPosition" Value="{{0.4,0},{0.60,0}}" />
+        <Property Name="UnifiedSize" Value="{{0.2,0},{0.06,0}}" />
+        <Property Name="Text" Value="Start Game" />
+      </Window>
+      
+      <Window Type="TaharezLook/Button" Name="cmdQuit">
+        <Property Name="UnifiedPosition" Value="{{0.4,0},{0.8,0}}" />
+        <Property Name="UnifiedSize" Value="{{0.2,0},{0.06,0}}" />
+        <Property Name="Text" Value="Quit" />
+      </Window>
+      
+      <Window Type="TaharezLook/Button" Name="cmdOptions">
+        <Property Name="UnifiedPosition" Value="{{0.4,0},{0.7,0}}" />
+        <Property Name="UnifiedSize" Value="{{0.2,0},{0.06,0}}" />
+        <Property Name="Text" Value="Options" />
+      </Window>
+      
+    </Window>
+  </Window>
+</GUILayout>

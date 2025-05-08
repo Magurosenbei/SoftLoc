@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Map>
+  <!-- Define Start and End -->
+  <StartPoint     x   = "-180"  y = "180"     z = "0"/>
+  <GoalPoint      x   = "-180"  y = "-180"    z = "0"/>
+  <FlagPosition   x   = "-180"  y = "-198"    z = "0"/>
+  <GoalExtents    x   = "20"    y = "20"      z = "50"/>
+  <GoalRotation   x   = "0"     y = "0"       z = "0"/>
+  <!-- Define Walls sx = scale qx = quaternion -->
+  <Walls>
+    
+    <GroupFilter Tag = "WallGroup00">
+      <Mesh   id="Cover_+">
+        <Position x = "0 "    y  = "0"      z  = "20"/>
+        <Scale    x = "400"   y  = "400 "   z  = "2"/>
+        <Rotation x = "0"     y  = "0"      z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="Cover_-">
+        <Position x = "0 "  y  = "0"        z  = "-20"/>
+        <Scale    x = "400" y  = "400 "     z  = "2"/>
+        <Rotation x = "0"   y  = "0"        z  = "0"/>
+      </Mesh>
+      
+      <Mesh   id="0"  display ="1x1CubeBlock.mesh">
+        <Position x = "-200 "   y  = "0"    z  = "0"/>
+        <Scale    x = "5"   y  = "400 "    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="1"  display ="1x1CubeBlock.mesh">
+        <Position x = "200 "   y  = "0"    z  = "0"/>
+        <Scale    x = "5"   y  = "400 "    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="2"  display ="1x1CubeBlock.mesh">
+        <Position x = "0"   y  = "200 "    z  = "0"/>
+        <Scale    x = "400 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="3"  display ="1x1CubeBlock.mesh">
+        <Position x = "0"   y  = "-200 "    z  = "0"/>
+        <Scale    x = "400"   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="4"  display ="1x1CubeBlock.mesh">
+        <Position x = "-172.931 "   y  = "152.799 "    z  = "0"/>
+        <Scale    x = "50.011 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="5"  display ="1x1CubeBlock.mesh">
+        <Position x = "-88.789 "   y  = "131.634 "    z  = "0"/>
+        <Scale    x = "125.733 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "-19.256 "/>
+      </Mesh>
+
+      <Mesh   id="6"  display ="1x1CubeBlock.mesh">
+        <Position x = "-32.005 "   y  = "165.188 "    z  = "0"/>
+        <Scale    x = "5"   y  = "66.446 "    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="7"  display ="1x1CubeBlock.mesh">
+        <Position x = "56.783 "   y  = "136.28 "    z  = "0"/>
+        <Scale    x = "181.109 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "15.497 "/>
+      </Mesh>
+
+      <Mesh   id="8"  display ="1x1CubeBlock.mesh">
+        <Position x = "88.789 "   y  = "161.575 "    z  = "0"/>
+        <Scale    x = "104.101 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="9"  display ="1x1CubeBlock.mesh">
+        <Position x = "172.931 "   y  = "80.013 "    z  = "0"/>
+        <Scale    x = "5"   y  = "107.264 "    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "27.824 "/>
+      </Mesh>
+
+      <Mesh   id="10"  display ="1x1CubeBlock.mesh">
+        <Position x = "103.243 "   y  = "82.078 "    z  = "0"/>
+        <Scale    x = "126.109 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "42.457 "/>
+      </Mesh>
+
+      <Mesh   id="11"  display ="1x1CubeBlock.mesh">
+        <Position x = "34.07 "   y  = "89.305 "    z  = "0"/>
+        <Scale    x = "124.889 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "23.595 "/>
+      </Mesh>
+
+      <Mesh   id="12"  display ="1x1CubeBlock.mesh">
+        <Position x = "18.067 "   y  = "51.105 "    z  = "0"/>
+        <Scale    x = "84.147 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "-17.113 "/>
+      </Mesh>
+
+      <Mesh   id="13"  display ="1x1CubeBlock.mesh">
+        <Position x = "-80.529 "   y  = "69.689 "    z  = "0"/>
+        <Scale    x = "129.114 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "41.617 "/>
+      </Mesh>
+
+      <Mesh   id="14"  display ="1x1CubeBlock.mesh">
+        <Position x = "-86.724 "   y  = "0.516 "    z  = "0"/>
+        <Scale    x = "184.756 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "43.916 "/>
+      </Mesh>
+
+      <Mesh   id="15"  display ="1x1CubeBlock.mesh">
+        <Position x = "-154.864 "   y  = "19.616 "    z  = "0"/>
+        <Scale    x = "5"   y  = "162.329 "    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="16"  display ="1x1CubeBlock.mesh">
+        <Position x = "-115.632 "   y  = "97.564 "    z  = "0"/>
+        <Scale    x = "78.286 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="17"  display ="1x1CubeBlock.mesh">
+        <Position x = "-114.083 "   y  = "-84.659 "    z  = "0"/>
+        <Scale    x = "171.187 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "41.681 "/>
+      </Mesh>
+
+      <Mesh   id="18"  display ="1x1CubeBlock.mesh">
+        <Position x = "-177.061 "   y  = "-154.864 "    z  = "0"/>
+        <Scale    x = "5"   y  = "28.957 "    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="19"  display ="1x1CubeBlock.mesh">
+        <Position x = "-188.418 "   y  = "-166.737 "    z  = "0"/>
+        <Scale    x = "20.234 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="20"  display ="1x1CubeBlock.mesh">
+        <Position x = "37.684 "   y  = "-94.983 "    z  = "0"/>
+        <Scale    x = "221.413 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "-36.901 "/>
+      </Mesh>
+
+      <Mesh   id="21"  display ="1x1CubeBlock.mesh">
+        <Position x = "55.235 "   y  = "-29.424 "    z  = "0"/>
+        <Scale    x = "212.646 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="22"  display ="1x1CubeBlock.mesh">
+        <Position x = "177.061 "   y  = "-156.929 "    z  = "0"/>
+        <Scale    x = "42.163 "   y  = "5"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+
+      <Mesh   id="23"  display ="1x1CubeBlock.mesh">
+        <Position x = "-180 "   y  = "230 "    z  = "0"/>
+        <Scale    x = "40 "   y  = "40"    z  = "50"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Mesh>
+    </GroupFilter>
+    
+  </Walls>
+
+  <Special>
+    <!--<GroupFilter Tag = "Needle">
+      <Obstacle   id="0"  display ="NeedleR1H5.mesh" collision ="NeedleR1H5.mesh">
+        <Position x = "-160 "   y  = "160 "   z  = "0"/>
+        <Scale    x = "1"   y  = "1"    z  = "1"/>
+        <Rotation x = "0"   y  = "0"    z  = "0"/>
+      </Obstacle>
+    </GroupFilter>-->
+
+    <GroupFilter Tag = "HotPad">
+      <Obstacle   id="0"  display ="1x1CubeBlock.mesh" collision ="1x1CubeBlock.mesh">
+        <Position x = "-39.402 "   y  = "179.526 " z  = "0"/>
+        <Scale    x = "5 "     y  = "28"   z  = "50"/>
+        <Rotation x = "0"       y  = "0"    z  = "0"/>
+      </Obstacle>
+
+      <Obstacle   id="1"  display ="1x1CubeBlock.mesh" collision ="1x1CubeBlock.mesh">
+        <Position x = "145.364 "   y  = "-19.990 " z  = "0"/>
+        <Scale    x = "28 "     y  = "5"   z  = "50"/>
+        <Rotation x = "0"       y  = "0"    z  = "0"/>
+      </Obstacle>
+    </GroupFilter>
+
+    <GroupFilter Tag = "ColdPad">
+      <Obstacle   id="0"  display ="1x1CubeBlock.mesh" collision ="1x1CubeBlock.mesh">
+        <Position x = "-193.115 "   y  = "177.973 " z  = "0"/>
+        <Scale    x = "5.000 "     y  = "28.000"   z  = "50"/>
+        <Rotation x = "0"       y  = "0"    z  = "0"/>
+      </Obstacle>
+
+      <Obstacle   id="1"  display ="1x1CubeBlock.mesh" collision ="1x1CubeBlock.mesh">
+        <Position x = "190.391 "   y  = "177.197 " z  = "0"/>
+        <Scale    x = "5.000 "     y  = "28.000"   z  = "50"/>
+        <Rotation x = "0"       y  = "0"    z  = "0"/>
+      </Obstacle>
+
+      <Obstacle   id="2"  display ="1x1CubeBlock.mesh" collision ="1x1CubeBlock.mesh">
+        <Position x = "178.746 "   y  = "-148.861 " z  = "0"/>
+        <Scale    x = "28.000 "     y  = "5.000"   z  = "50"/>
+        <Rotation x = "0"       y  = "0"    z  = "0"/>
+      </Obstacle>
+    </GroupFilter>
+  </Special>
+</Map>

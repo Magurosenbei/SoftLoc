@@ -1,0 +1,15 @@
+Impt:
+Do Map
+Do Obstacle -- at the very least static boxes that block ways
+Not Impt:
+Find a way to properly rotate the sprite 2D
+
+
+basic work flow
+
+Maps, Balls, Obstacles are all contents and should be in Content_Handler
+
+Main Phase switching occurs in EntryPoint
+
+When Creating Entity, call BlockRender and UnBlockRender to prevent HardwareBuffer Conflicts
+Occurs pretty fast, do not hog a whole chunk of process in with this, usually 1 ~ 3 calls that really require them.

@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<Font 	Name="Hymmnos-24" Filename="hymmnos.ttf" 
+		Type="FreeType" Size="24" 
+		NativeHorzRes="800" NativeVertRes="600" 
+		AutoScaled="true"/>
